@@ -1,0 +1,54 @@
+<!-- Magic Shortcodes - proof of concept -->
+<!-- Enabled Debug in 'basic' mode to view all available types -->
+
+<div id='header'>
+  <div class='container'>
+    <nav class='navbar navbar-expand-md py-md-3 justify-content-center navbar-custom'>
+      <a class='navbar-brand' href='{SITEURL}'>{LOGO}</a>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='navbar-collapse collapse justify-content-stretch' id='navbarContent'>
+        {NAVIGATION=main}
+        {FITNESS_LANGUAGELINKS}
+        {XURL_ICONS}
+      </div>
+    </nav>
+  </div> 
+</div> 
+
+<!-- Page Content -->
+<div id="main-content" class="container-fluid w-75">
+
+  <!-- Page Heading/Breadcrumbs -->
+  <h4>{---CAPTION---}</h4>
+  {---BREADCRUMB---}
+
+  <div class="row">  
+    <!-- Blog Entries Column -->
+    <div class='col-md-8'>
+	  {ALERTS}
+	  {SETSTYLE=main} 
+	  {---}
+      {SETSTYLE=leftbottom}
+      <div class="row">
+        <div class="col-md">
+          {MENU=6}
+        </div>
+        <div class="col-md">
+          {MENU=7}
+        </div>
+      </div>
+    </div>
+	<div class='col-md-4'>
+	  <!-- Standard sidebar menu -->
+	  <div class='rightcol'> 
+		{SETSTYLE=rightcol}
+		{MENU=1}
+        {MENU=2} 
+	  </div>
+	</div>
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->

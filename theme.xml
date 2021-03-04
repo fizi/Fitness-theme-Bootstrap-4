@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Fitness BS4" version="1.0" date="2021-01-17" compatibility="2.0" >
+	<author name="fizi" url="http://fizithemes.hu" email="fizi@wsb.hu"/>
+	<summary>Fitness BS4 theme by fizi</summary>
+	<description>Bootstrap 4 theme</description>
+  <category>fitness</category>
+  <copyright>Theme by: FIZI THEMES</copyright>
+  <plugins>
+    <plugin name='featurebox' url='core' />
+    <plugin name='social' url='core' />
+  </plugins>
+  <keywords>
+    <word>bootstrap</word>
+    <word>fitness theme</word>
+    <word>responsive</word>
+  </keywords>
+  <libraries>
+    <library name="bootstrap" version="4" scope="all"/>
+	<library name="fontawesome" version="5" scope="all"/>
+  </libraries>
+  <screenshots>
+	<image>preview.jpg</image>
+  </screenshots>
+  <stylesheets>
+    <css file="style.css" name="Default" />
+  </stylesheets>
+  <layouts>
+    <layout name='home' title='Home Page' >
+	  <custompages>FRONTPAGE</custompages>
+	</layout>
+    <layout name='full' title='Full' >
+	  <custompages>:forum/</custompages>
+	</layout>
+    <layout name='extend_news' title='extend news' default='false'>
+      <custompages>/news/view/</custompages>
+    </layout>
+    <layout name='sidebar_left' title='Sidebar (left)' />
+	<layout name='sidebar_right' title='Sidebar (right)' default='true' />	
+  </layouts>
+</e107Theme>

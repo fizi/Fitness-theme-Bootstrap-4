@@ -1,0 +1,157 @@
+<!-- place for Featurebox or any masthead solution -->
+
+<div class='slider-wrap'> 
+  {SETSTYLE=slider}
+  {MENU=featurebox}
+  <div class='header-navigation'>
+    <div class='container'>
+      <nav class='navbar navbar-expand-md py-md-3 justify-content-center navbar-custom'>
+        <a class='navbar-brand' href='{SITEURL}'>{LOGO}</a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false' aria-label='Toggle navigation'>
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='navbar-collapse collapse justify-content-stretch' id='navbarContent'>
+          {NAVIGATION=main}
+          {FITNESS_LANGUAGELINKS}
+          {XURL_ICONS}
+        </div>
+      </nav>
+    </div>
+  </div>
+</div> 
+
+<!-- Page Content -->
+<div id='wmessage' class='wmessage'>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-md-6'>      
+        {SETSTYLE=wmessage}
+        {WMESSAGE}
+      </div>
+      <div class='col-md-6'></div>
+    </div>
+  </div>      
+  <div class='wmessage-image'><img class='img-responsive img-fluid' src='{THEME}images/wmessage-01.jpg' /></div>
+</div>
+<div id='home-section-1' class='about-us'>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-md-6'>
+        <div class='home-section-1-image'><img class='img-responsive img-fluid' src='{THEME}images/homepage-01.png' /></div>
+      </div>      
+      <div class='col-md-6' data-aos='fade-left'> 
+        {SETSTYLE=home-section-1} 
+        {MENU=10}        
+      </div>
+    </div>
+  </div>
+</div>
+<div id='home-section-2' class='our-programs'>
+  <div class='container-fluid w-75'>
+    <div class='row'>
+      <div class='col-md-12' data-aos='fade-right'>
+        <div class='home-section-2-caption'>
+          <h4>{SITENAME}</h4>
+          <h2>{LAN=LAN_THEME_200}</h2>
+        </div>
+      </div>  
+      <div class='col-md-3' data-aos='zoom-in'>
+        {SETSTYLE=home-section-2} 
+        {MENU=20}         
+      </div>
+      <div class='col-md-3' data-aos='zoom-in'>
+        {SETSTYLE=home-section-2} 
+        {MENU=21}          
+      </div>
+      <div class='col-md-3' data-aos='zoom-in'>
+        {SETSTYLE=home-section-2}
+        {MENU=22}        
+      </div> 
+      <div class='col-md-3' data-aos='zoom-in'>
+        {SETSTYLE=home-section-2}
+        {MENU=23}        
+      </div> 
+    </div>               
+  </div>        
+</div>
+<div id='home-section-3' class='the-place'>
+  <div class='home-section-3-image'><img class='img-responsive img-fluid' src='{THEME}images/homepage-03.jpg' /></div>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-md-6'></div>
+      <div class='col-md-6'> 
+        {SETSTYLE=home-section-3}
+        {MENU=30}
+      </div>
+    </div>
+  </div>     
+</div>
+<div id='home-section-4' class='our-trainers'>
+  <div class='container-fluid w-75'>
+    <div class='row'>
+      <div class='col-md-12' data-aos='fade-right'>
+        <div class='home-section-4-caption'>
+          <h4>{SITENAME}</h4>
+          <h2>{LAN=LAN_THEME_300}</h2>
+        </div>
+      </div>
+    </div>
+    <div class='row'>  
+      <div class='col-sm-6 col-md-6' data-aos='zoom-in'>
+        {SETSTYLE=home-section-4} 
+        {MENU=40}         
+      </div>
+      <div class='col-sm-6 col-md-6' data-aos='zoom-in'>
+        {SETSTYLE=home-section-4} 
+        {MENU=41}          
+      </div>
+      <div class='col-sm-6 col-md-6' data-aos='zoom-in'>
+        {SETSTYLE=home-section-4}
+        {MENU=42}        
+      </div> 
+      <div class='col-sm-6 col-md-6' data-aos='zoom-in'>
+        {SETSTYLE=home-section-4}
+        {MENU=43}        
+      </div> 
+    </div>               
+  </div>              
+</div>
+<div id='home-section-5' class='portfolio'>
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-md-12' data-aos='fade-right'>
+        <div class='home-section-5-caption'>
+          <h4>{SITENAME}</h4>
+          <h2>{LAN=LAN_THEME_400}</h2>
+        </div>
+      </div>
+    </div> 
+    <div class='row'> 
+	  {SETSTYLE=portfolio}
+	  {SETIMAGE: w=800&h=800&crop=1}
+	  {GALLERY_PORTFOLIO: placeholder=1&limit=12}  
+    </div>
+  </div>
+</div> 
+<div id='home-section-6' class='latest-newsposts'>
+  <div class='container-fluid w-75'>
+    <div class='row'>
+      <div class='col-md-12' data-aos='fade-right'>
+        <div class='home-section-6-caption'>
+          <h4>{SITENAME}</h4>
+          <h2>{LAN=LAN_THEME_500}</h2>
+        </div>
+      </div>
+    </div> 
+    <div class='row'>
+      {FITNESS_GRID_NEWS_LATEST}
+    </div> 
+  </div>
+</div>
+<div id="main-content" class="container">
+
+{---}
+
+</div>
+<!-- /.container -->
+

@@ -1,0 +1,47 @@
+<!-- Magic Shortcodes - proof of concept -->
+<!-- Enabled Debug in 'basic' mode to view all available types -->
+
+<div class='extend-news'>
+  <div class='extend-news-mainimage'> 
+    {THEME_NEWS_BANNER: type=image}
+    <div class='header-navigation'>
+      <div class='container'>
+        <nav class='navbar navbar-expand-md py-md-3 justify-content-center navbar-custom'>
+          <a class='navbar-brand' href='{SITEURL}'>{LOGO}</a>
+          <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <div class='navbar-collapse collapse justify-content-stretch' id='navbarContent'>
+            {NAVIGATION=main}
+            {FITNESS_LANGUAGELINKS}
+            {XURL_ICONS}
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class='extend-news-title'>
+      <h2>{THEME_NEWS_BANNER: type=title}</h2>
+      <div class='extend-news-info'>{THEME_NEWS_BANNER: type=author}&nbsp;&nbsp;|&nbsp;&nbsp;{THEME_NEWS_BANNER: type=date}&nbsp;&nbsp;|&nbsp;&nbsp;{THEME_NEWS_BANNER: type=comment}&nbsp;&nbsp;{LAN=LAN_COMMENTS}&nbsp;&nbsp;|&nbsp;&nbsp;{THEME_NEWS_BANNER: type=category}</div>
+    </div>
+  </div>
+</div>
+ 
+
+<!-- Page Content -->
+<div id="main-content" class="container">
+
+  <!-- Page Heading/Breadcrumbs -->
+  {ALERTS}
+  {---BREADCRUMB---}
+
+  <div class="row">
+  <!-- Blog Entries Column -->
+    <div class='col'>
+	  {ALERTS}
+	  {SETSTYLE=main}
+	  {---}
+    </div>
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
