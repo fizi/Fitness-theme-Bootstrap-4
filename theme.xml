@@ -32,7 +32,7 @@
 	  <custompages>:forum/</custompages>
 	</layout>
     <layout name='extend_news' title='extend news' default='false'>
-      <custompages>/news/view/</custompages>
+      <custompages>:news/view/item</custompages>
     </layout>
     <layout name='sidebar_left' title='Sidebar (left)' />
 	<layout name='sidebar_right' title='Sidebar (right)' default='true' />	
