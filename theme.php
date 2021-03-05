@@ -26,7 +26,7 @@ class theme implements e_theme_render {
     
     e107::library("load", "animate.css"); 
     
-    e107::css('url', 'https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+    e107::css('url', 'https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');  
     e107::css("theme", "css/aos.css"); 
     e107::css("theme", "css/languages.css");     
     
