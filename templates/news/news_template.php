@@ -155,7 +155,10 @@ $NEWS_TEMPLATE['default']['end'] = '
 /* FOR NEWS ITEM ON CATEGORY'S PAGE **************************************************************************/
 
 $NEWS_TEMPLATE['category']          = $NEWS_TEMPLATE['default'];
-$NEWS_TEMPLATE['category']['start']	= '<!-- Category News Template -->';
+$NEWS_TEMPLATE['category']['start']	= '
+<!-- Category News Template -->
+<div class="categories-items">
+';
 
 /**
  * @todo (experimental)
