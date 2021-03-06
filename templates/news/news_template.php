@@ -62,17 +62,18 @@ $NEWS_TEMPLATE['list']['first'] = '
 $NEWS_TEMPLATE['list']['item'] = '
   <div class="list-news-item">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <div class="list-news-item-image">
           {SETIMAGE: w=900&h=675&crop=1}
           <a href="{NEWS_URL}">{NEWSIMAGE: item=1}</a>
           <div class="list-news-item-category">{NEWSCATEGORY}</div>
         </div>
       </div>
-      <div class="col-md-7">
-        <h3 class="list-news-item-title">{NEWS_TITLE: link=1}</h3>
-        <div class="list-news-item-summary">{NEWS_SUMMARY}</div>
-        <div class="list-news-item-extended"><a href="{NEWSURL}" class="btn btn-small btn-primary">{LAN=LAN_READ_MORE}</a></div>
+      <div class="col-md-6">
+        <h2 class="list-news-item-title">{NEWS_TITLE: link=1}</h2>
+        <div class="list-news-item-info">{NEWSAUTHOR}&nbsp;&nbsp;|&nbsp;&nbsp;{NEWSDATE=short}&nbsp;&nbsp;|&nbsp;&nbsp;{NEWSCOMMENTCOUNT}&nbsp;&nbsp;{NEWS_COMMENT_LABEL}&nbsp;&nbsp;|&nbsp;&nbsp;<i class="far fa-eye"></i>&nbsp;{HITS_COUNTER: multi=1}</div>
+        <div class="list-news-item-body">{NEWS_BODY}</div>
+        <div class="list-news-item-extended"><a href="{NEWSURL}"><i class="fas fa-angle-double-right"></i></a></div>
       </div>
     </div>
   </div>
