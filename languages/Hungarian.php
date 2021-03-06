@@ -32,6 +32,9 @@ define("LAN_THEME_10", "Keresés");
 
 define("LAN_THEME_20", "Megosztás:"); 
 
+/* Custom SELECT LANGUAGE */
+define("LAN_THEME_30", "Nyelv");
+
 /* Custom Page - CPAGE */
 define("LAN_THEME_80", "Hozzászólások");
 
