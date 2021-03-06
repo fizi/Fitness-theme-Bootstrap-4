@@ -325,7 +325,7 @@ class theme_shortcodes extends e_shortcode {
       
       $ret[] = "<ul class='navbar-nav sel-lang'>
                   <li class='nav-item dropdown'>
-                    <a id='languageDropdown' class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Language</a>
+                    <a id='languageDropdown' class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>".LAN_THEME_30."</a>
                     <div class='dropdown-menu' aria-labelledby='languageDropdown'>";     
                   
 
