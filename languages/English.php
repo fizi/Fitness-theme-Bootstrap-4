@@ -32,6 +32,9 @@ define("LAN_THEME_10", "Search");
 
 define("LAN_THEME_20", "Share This:"); 
 
+/* Custom SELECT LANGUAGE */
+define("LAN_THEME_30", "Language");
+
 /* Custom Page - CPAGE */
 define("LAN_THEME_80", "Comments");
 
