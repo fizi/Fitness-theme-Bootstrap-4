@@ -120,7 +120,7 @@ $NEWS_GRID_TEMPLATE['homepage-latestnews']['featured'] = '
 ';
 
 $NEWS_GRID_TEMPLATE['homepage-latestnews']['item'] = '
-    <div class="col-md-4" data-aos="zoom-in">
+    <div class="col-lg-6 col-xl-3" data-aos="zoom-in">
       <div class="homepage-latestnews-item matchHeigh">                             
         {SETIMAGE: w=800&h=600&crop=1}
         <div class="homepage-latestnews-item-image">
