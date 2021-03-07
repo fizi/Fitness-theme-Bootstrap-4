@@ -143,7 +143,7 @@ class theme implements e_theme_render {
       break;
       
       case "portfolio":
-		  echo "<div class='col-md-2'>{$text}</div>";	
+		  echo "<div class='col-md-4 col-lg-3 col-xl-2'>{$text}</div>";	
 	  break;
 
 	  case "main":
