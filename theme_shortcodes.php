@@ -323,9 +323,12 @@ class theme_shortcodes extends e_shortcode {
 		return;
 	  } 
       
+      $code = ($slng->convert(e_LANGUAGE));             
+      
       $ret[] = "<ul class='navbar-nav sel-lang'>
                   <li class='nav-item dropdown'>
-                    <a id='languageDropdown' class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>".LAN_THEME_30."</a>
+                    <a id='languageDropdown' class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'> 
+                    <span class='lang-sm lang-lbl' lang='{$code}'></span></a>                    
                     <div class='dropdown-menu' aria-labelledby='languageDropdown'>";     
                   
 
@@ -366,7 +369,7 @@ class theme_shortcodes extends e_shortcode {
 		$class = ($languageFolder == e_LANGUAGE) ? 'languagelink_active' : 'languagelink'; 
         
        
-		$ret[] =  "<a class='dropdown-item {$class}' href='{$link}'><span class='lang-lg lang-lbl' lang='{$code}'></span></a>";
+		$ret[] =  "<a class='dropdown-item {$class}' href='{$link}'><span class='lang-sm lang-lbl' lang='{$code}'></span></a>";
 	  }
       
       $ret[] .= "</div></li></ul>";                  
