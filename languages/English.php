@@ -35,6 +35,9 @@ define("LAN_THEME_20", "Share This:");
 /* Custom SELECT LANGUAGE */
 define("LAN_THEME_30", "Language");
 
+/* Custom OPENING HOURS IN FOOTER */
+define("LAN_THEME_40", "We are open");
+
 /* Custom Page - CPAGE */
 define("LAN_THEME_80", "Comments");
 
