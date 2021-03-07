@@ -171,7 +171,7 @@ class theme_shortcodes extends e_shortcode {
   
       $template = "
         <!-- News Grid Menu for Latest 4 News -->
-        {MENU: path=news/news_grid&limit=3&category=0&source=latest&featured=0&layout=homepage-latestnews}
+        {MENU: path=news/news_grid&limit=4&category=0&source=latest&featured=0&layout=homepage-latestnews}
 
     ";
 
