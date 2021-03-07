@@ -35,6 +35,9 @@ define("LAN_THEME_20", "Megosztás:");
 /* Custom SELECT LANGUAGE */
 define("LAN_THEME_30", "Nyelv");
 
+/* Custom OPENING HOURS IN FOOTER */
+define("LAN_THEME_40", "Nyitvatartás");
+
 /* Custom Page - CPAGE */
 define("LAN_THEME_80", "Hozzászólások");
 
