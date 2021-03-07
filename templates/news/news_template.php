@@ -121,7 +121,7 @@ $NEWS_TEMPLATE['default']['item'] = '
 
 // $NEWS_WRAPPER['default']['item']['NEWSIMAGE: item=1'] = '<span class="news-images-main pull-left float-left col-xs-12 col-sm-6 col-md-6">{---}</span>';
 
-$NEWS_TEMPLATE['default']['caption'] = '{LAN=PAGE_NAME}'; // add a value to user tablerender()
+$NEWS_TEMPLATE['default']['caption'] = '{LAN=LAN_PLUGIN_NEWS_NAME}'; // add a value to user tablerender()
 
 $NEWS_TEMPLATE['default']['start'] = '
 <!-- Default News Template -->
