@@ -266,6 +266,11 @@ class theme_shortcodes extends e_shortcode {
       $contact_shortcodes = e107::getScBatch('contact');                
       return e107::getParser()->parseTemplate("<p>{CONTACT_INFO: type=email1}</p>", true, $contact_shortcodes);
     }
+    function sc_fitness_contact_hours()
+	{
+      $contact_shortcodes = e107::getScBatch('contact');                
+      return e107::getParser()->parseTemplate("<p>{CONTACT_INFO: type=hours}</p>", true, $contact_shortcodes);
+    }
 
     
 /*------------------------------------------ 
