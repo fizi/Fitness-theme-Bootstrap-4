@@ -18,10 +18,10 @@
           <address>{GLYPH=fas fa-map-marker-alt} <span>{LAN=LAN_THEME_600}</span>{FITNESS_CONTACT_ADDRESS}</address>
         </div>
         <div class='col-md'>
-          <div class='phone1'>{GLYPH=fas fa-mobile-alt} <span>{LAN=LAN_THEME_601}</span>{FITNESS_CONTACT_PHONE1}</div>
+          <div class='phone'>{GLYPH=fas fa-mobile-alt} <span>{LAN=LAN_THEME_601}</span>{FITNESS_CONTACT_PHONE1}</div>
         </div>
         <div class='col-md'>
-          <div class='email1'>{GLYPH=fas fa-at} <span>{LAN=LAN_THEME_602}</span>{FITNESS_CONTACT_EMAIL1}</div>
+          <div class='email'>{GLYPH=fas fa-at} <span>{LAN=LAN_THEME_602}</span>{FITNESS_CONTACT_EMAIL1}</div>
         </div>
       </div>
     </div>
@@ -29,17 +29,29 @@
   <div class='container'>
     <div class='row'>
       <div class='col-md'>
+        <div class='footer-navigation'>
+          <div class='footer-navigation-title'><h2>{LAN=LAN_THEME_50}</h2></div>
+          <nav class='navbar'>
+            {NAVIGATION=footer}
+          </nav>          
+        </div>   
         {SETSTYLE=bottomcol}
-        {MENU=3}
+        {MENU=3} 
       </div>
       <div class='col-md'>
+        <div class='footer-logo'>{LOGO}</div>
+        <div class='footer-sitename'>{SITENAME}</div>
+        <div class='footer-sitetag'>{SITETAG}</div>
+        <div class='footer-social'>{XURL_ICONS: size=2x}</div>
         {SETSTYLE=bottomcol}
-        {MENU=4}
+        {MENU=4} 
       </div>
       <div class='col-md'>
         <div class='opening-hours-content'>
           <div class='opening-hours-content-title'><h2>{LAN=LAN_THEME_40}</h2></div>
           <div class='opening-hours-content-body'>{FITNESS_CONTACT_HOURS}</div>
+          {SETSTYLE=bottomcol}
+          {MENU=5} 
         </div>
       </div>
     </div> 
