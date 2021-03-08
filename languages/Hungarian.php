@@ -38,6 +38,9 @@ define("LAN_THEME_30", "Nyelv");
 /* Custom OPENING HOURS IN FOOTER */
 define("LAN_THEME_40", "Nyitvatartás");
 
+/* Custom FOOTER NAVIGATION TITLE */
+define("LAN_THEME_50", "Oldal Linkek");
+
 /* Custom Page - CPAGE */
 define("LAN_THEME_80", "Hozzászólások");
 
