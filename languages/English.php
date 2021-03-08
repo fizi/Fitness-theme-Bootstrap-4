@@ -38,6 +38,9 @@ define("LAN_THEME_30", "Language");
 /* Custom OPENING HOURS IN FOOTER */
 define("LAN_THEME_40", "We are open");
 
+/* Custom FOOTER NAVIGATION TITLE */
+define("LAN_THEME_50", "Quick Links");
+
 /* Custom Page - CPAGE */
 define("LAN_THEME_80", "Comments");
 
