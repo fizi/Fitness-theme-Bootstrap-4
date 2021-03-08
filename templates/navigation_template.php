@@ -215,7 +215,7 @@ see https://getbootstrap.com/docs/4.1/components/navs/#base-nav
  */
 
 $NAVIGATION_TEMPLATE['footer']['start'] = "
-<ul class='nav {NAV_CLASS}'>
+<ul class='nav navbar-nav {NAV_CLASS}'>
 ";
 $NAVIGATION_TEMPLATE['footer']['item'] = "
   <li class='nav-item'>
