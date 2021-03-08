@@ -254,22 +254,22 @@ class theme_shortcodes extends e_shortcode {
     function sc_fitness_contact_address()
 	{
       $contact_shortcodes = e107::getScBatch('contact');                
-      return e107::getParser()->parseTemplate("<p>{CONTACT_INFO: type=address}</p>", true, $contact_shortcodes);
+      return e107::getParser()->parseTemplate("<div class='contact-info-address'>{CONTACT_INFO: type=address}</div>", true, $contact_shortcodes);
     }
     function sc_fitness_contact_phone1()
 	{
       $contact_shortcodes = e107::getScBatch('contact');                
-      return e107::getParser()->parseTemplate("<p>{CONTACT_INFO: type=phone1}</p>", true, $contact_shortcodes);
+      return e107::getParser()->parseTemplate("<div class='contact-info-phone'>{CONTACT_INFO: type=phone1}</div>", true, $contact_shortcodes);
     }
     function sc_fitness_contact_email1()
 	{
       $contact_shortcodes = e107::getScBatch('contact');                
-      return e107::getParser()->parseTemplate("<p>{CONTACT_INFO: type=email1}</p>", true, $contact_shortcodes);
+      return e107::getParser()->parseTemplate("<div class='contact-info-email'>{CONTACT_INFO: type=email1}</div>", true, $contact_shortcodes);
     }
     function sc_fitness_contact_hours()
 	{
       $contact_shortcodes = e107::getScBatch('contact');                
-      return e107::getParser()->parseTemplate("<p>{CONTACT_INFO: type=hours}</p>", true, $contact_shortcodes);
+      return e107::getParser()->parseTemplate("<div class='contact-info-hours'>{CONTACT_INFO: type=hours}</div>", true, $contact_shortcodes);
     }
 
     
