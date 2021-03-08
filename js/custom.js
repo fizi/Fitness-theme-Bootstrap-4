@@ -87,7 +87,7 @@ $(function () {
   $("#forum-stats .panel .table").wrap("<div class='table-responsive'></div>");
   
   
-  //------------- FORUM DROPDOWN MENU FROM RIGHT -------------
+  //------------- DROPDOWN MENU FROM RIGHT -------------
   // combine animate with jQuery or add your own CSS rules
   $('#forum-viewforum .forum-viewforum-button ul.dropdown-menu').addClass('dropdown-menu-right'); 
   $('#forum-view-topic .forum-viewtopic-button ul.dropdown-menu').addClass('dropdown-menu-right'); 
@@ -111,6 +111,9 @@ $(function () {
       $('.dropdown-submenu .show').removeClass("show");
     });
 
-  });
+  }); 
+  
+  //------------- Opening hours style lettering.js -------------  
+  $(".opening-hours-content .contact-info-hours").lettering('lines');
     
 });
