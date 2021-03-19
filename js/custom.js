@@ -3,11 +3,7 @@
 
 $(function () {
 
-  // Scroll To top   
-  $('.movetotop').click(function() {
-    $('html, body').animate({scrollTop: 0}, 700);
-    return false;
-  });    
+  
 
   // SITENAME colored 
   $(".slider-wrap .carousel-caption h1").lettering("words"); 
@@ -88,10 +84,7 @@ $(function () {
   
   
   //------------- DROPDOWN MENU FROM RIGHT -------------
-  // combine animate with jQuery or add your own CSS rules
-  $('#forum-viewforum .forum-viewforum-button ul.dropdown-menu').addClass('dropdown-menu-right'); 
-  $('#forum-view-topic .forum-viewtopic-button ul.dropdown-menu').addClass('dropdown-menu-right'); 
-  $('#forum-view-topic .forum-viewtopic-postoptions ul.dropdown-menu').addClass('dropdown-menu-right'); 
+  $('#main-content ul.dropdown-menu').addClass('dropdown-menu-right'); 
   
   
   // ------------------------------------------------------- //

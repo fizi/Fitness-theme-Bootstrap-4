@@ -126,40 +126,6 @@ class theme_shortcodes extends e_shortcode {
 
 		return $tp->parseTemplate($text,true,$login_menu_shortcodes);
 	}	
-    
-
-  
-/*----------------------------- 
-  SUBSCRIBE SHORTCODE 
------------------------------*/    
-  function sc_bootstrap_subscribe()
-	{
-		$pref = e107::pref('core');
-		$ns = e107::getRender();
-
-		if(empty($pref['signup_option_class']))
-		{
-			return false;
-		}
-
-		$frm = e107::getForm();
-		$text = $frm->open('newsletter','post', e_SIGNUP); 
-		$text .= "<div class='input-group input-group-lg'>"; 
-		$text .= $frm->text('email','', null, array('placeholder'=>LAN_THEME_401));
-		$text .= "<span class='input-group-btn'>";
-		$text .= " ".$frm->button('subscribe', 1, 'submit', LAN_THEME_402, array('class'=>'btn-primary'));
-		$text .= "</span>";
-	  $text .= "</div>";  
-		$text .= $frm->close();
-
-		$caption = LAN_THEME_400;
-
-		return $ns->tablerender($caption, $text, 'subscribe', true);
-	}
-  
-
-
-
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
